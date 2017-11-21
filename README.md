@@ -2,6 +2,16 @@
 
 Personal notes:
 - clone clean copy of ReduxSimpleStarter and name it
+- cleanup and get ready for hosting:
+  - package.json: script: add "webpack":"webpack"
+  - .gitignore -> delete bundle.js
+
+  - IN CODE:
+    - delete leading '/' in script for style.css (top) and bundle.js (bottom)
+
+- *** EVERY TIME YOU SAVE YOUR CODE, RUN:
+  - npm run webpack
+
 - create new repository in github
 - in terminal:
   - git init
@@ -10,7 +20,7 @@ Personal notes:
   - git remote set-url origin https://github.com/gdevany/CityTempEtc.git  <-copy paste this from github page of newly created new repository
   - git remote -v  <- to verify origin is correct
   - git push origin
-  
+
 
 
 
