@@ -1,5 +1,20 @@
 # ReduxSimpleStarter
 
+Personal notes:
+- clone clean copy of ReduxSimpleStarter and name it
+- create new repository in github
+- in terminal:
+  - git init
+  - git add .
+  - git commit -m "First commit"
+  - git remote set-url origin https://github.com/gdevany/CityTempEtc.git  <-copy paste this from github page of newly created new repository
+  - git remote -v  <- to verify origin is correct
+  - git push origin
+  
+
+
+
+
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
 ### Getting Started
