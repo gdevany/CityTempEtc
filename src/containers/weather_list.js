@@ -15,6 +15,7 @@ console.log(cityData);
     return (
       <tr key={cityData.city.name}>
         {/*}<td><GoogleMap lon={lon} lat={lat} /></td>*/}
+        <td>{cityData.city.name}</td>
         <td><Chart data={temps} color="orange" units="f" /></td>
         <td><Chart data={pressure} color="green" units="hPa" /></td>
         <td><Chart data={humidity} color="black" units="%" /></td>

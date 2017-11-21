@@ -24306,6 +24306,11 @@
 	        _react2.default.createElement(
 	          'td',
 	          null,
+	          cityData.city.name
+	        ),
+	        _react2.default.createElement(
+	          'td',
+	          null,
 	          _react2.default.createElement(_chart2.default, { data: temps, color: 'orange', units: 'f' })
 	        ),
 	        _react2.default.createElement(
